@@ -52,7 +52,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 13.43;
                     portablewaterwastecost = portablewaterused * 2.95;
                     portablewaterwastecostwithVAT = portablewaterused * 3.36;
-                    Totalcost = portablewaterused * 13.43 + portablewaterused * 3.36 + portablewaterused * 3.60 + portablewaterused * 0.65;
+                    Totalcost = (portablewaterused * 13.43) + (portablewaterused * 3.36)+ (portablewaterused * 3.60 )+ (portablewaterused * 0.65);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name   +   "Stay" +    Residentialplace    +  "Plot"   +  address       + "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl:  " + portablewaterused);
@@ -68,7 +68,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 23.51;
                     portablewaterwastecost = portablewaterused * 4.41;
                     portablewaterwastecostwithVAT = portablewaterused * 5.03;
-                    Totalcost = portablewaterused * 23.51 + portablewaterused * 5.03 + portablewaterused * 13.43 + portablewaterused * 3.36 + portablewaterused * 3.60 + portablewaterused * 0.65;
+                    Totalcost = (portablewaterused * 23.51) + (portablewaterused * 5.03) + (portablewaterused * 13.43) + (portablewaterused * 3.36) + (portablewaterused * 3.60) + (portablewaterused * 0.65);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name        +  "Stay"       +  Residentialplace       +   "Plot"       +  address       + "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl " + portablewaterused);
@@ -84,7 +84,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 36.16;
                     portablewaterwastecost = portablewaterused * 5.89;
                     portablewaterwastecostwithVAT = portablewaterused * 6.71;
-                    Totalcost =  portablewaterused * 36.16 + portablewaterused * 6.71 + portablewaterused * 23.51 + portablewaterused * 5.03 + portablewaterused * 13.43 + portablewaterused * 3.36 + portablewaterused * 3.60 + portablewaterused * 0.65;
+                    Totalcost =  (portablewaterused * 36.16) + (portablewaterused * 6.71) + (portablewaterused * 23.51) + (portablewaterused * 5.03) + (portablewaterused * 13.43) + (portablewaterused * 3.36) + (portablewaterused * 3.60) + (portablewaterused * 0.65);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name +   "Stay"      +   Residentialplace      +     "Plot"     +   address        +   "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl  " + portablewaterused);
@@ -100,7 +100,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 45.21;
                     portablewaterwastecost = portablewaterused * 7.36;
                     portablewaterwastecostwithVAT = portablewaterused * 8.39;
-                    Totalcost =  portablewaterused * 45.21  + portablewaterused * 8.39 + portablewaterused * 36.16 + portablewaterused * 6.71 + portablewaterused * 23.51 + portablewaterused * 5.03 + portablewaterused * 13.43 + portablewaterused * 3.36 + portablewaterused * 3.60 + portablewaterused * 0.65;
+                    Totalcost =  (portablewaterused * 45.21)  + (portablewaterused * 8.39) + (portablewaterused * 36.16) + (portablewaterused * 6.71) + (portablewaterused * 23.51) + (portablewaterused * 5.03) + (portablewaterused * 13.43) + (portablewaterused * 3.36) + (portablewaterused * 3.60) + (portablewaterused * 0.65);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name +    "Stay"       +    Residentialplace    +    "Plot"    +  address      +   "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl " + portablewaterused);
@@ -126,7 +126,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 4.92 ;
                     portablewaterwastecost = portablewaterused * 0.65;
                     portablewaterwastecostwithVAT = portablewaterused * 0.74;
-                    Totalcost =  portablewaterused * 4.92  + portablewaterused * 0.74;
+                    Totalcost =  (portablewaterused * 4.92)  + (portablewaterused * 0.74);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name +     "Stay"    +    Residentialplace        +      "Plot"      +   address      +   "Monthly Bil");
                     Console.WriteLine("Portable Water used Kl " + portablewaterused);
@@ -142,7 +142,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 14.61 ;
                     portablewaterwastecost = portablewaterused * 2.95 ;
                     portablewaterwastecostwithVAT = portablewaterused * 3.36 ;
-                    Totalcost = portablewaterused * 14.61 + portablewaterused * 3.36 + portablewaterused * 4.92 + portablewaterused * 0.74;
+                    Totalcost = (portablewaterused * 14.61) + (portablewaterused * 3.36) + (portablewaterused * 4.92) + (portablewaterused * 0.74);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name      +    "Stay"   +    Residentialplace    +    "Plot"   +    address    +      "Monthly Bill");
                     Console.WriteLine("Portable Water cost " + portablewaterused);
@@ -157,7 +157,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 25.88;
                     portablewaterwastecost = portablewaterused * 4.41;
                     portablewaterwastecostwithVAT = portablewaterused * 5.03;
-                    Totalcost = portablewaterused * 25.88 + portablewaterused * 5.03 + portablewaterused * 14.61 + portablewaterused * 3.36 + portablewaterused * 4.92 + portablewaterused * 0.74;
+                    Totalcost = (portablewaterused * 25.88) + (portablewaterused * 5.03) + (portablewaterused * 14.61) + (portablewaterused * 3.36) + (portablewaterused * 4.92) + (portablewaterused * 0.74);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " +   Name       +    "Stay"    +     Residentialplace       +     "Plot"     +    address         +    "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl" + portablewaterused);
@@ -173,7 +173,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 39.35;
                     portablewaterwastecost = portablewaterused * 5.89;
                     portablewaterwastecostwithVAT = portablewaterused * 6.71;
-                    Totalcost = portablewaterused * 39.35 + portablewaterused * 6.71 + portablewaterused * 25.88 + portablewaterused * 5.03 + portablewaterused * 14.61 + portablewaterused * 3.36 + portablewaterused * 4.92 + portablewaterused * 0.74;
+                    Totalcost = (portablewaterused * 39.35) + (portablewaterused * 6.71) + (portablewaterused * 25.88) + (portablewaterused * 5.03) + (portablewaterused * 14.61) + (portablewaterused * 3.36) + (portablewaterused * 4.92) + (portablewaterused * 0.74);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name       +    "Stay"    +     Residentialplace      +   "Plot"    +    address      +    "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl " + portablewaterused);
@@ -189,7 +189,7 @@ namespace Waterbill
                     portablewatercostwithVAT = portablewaterused * 49.20;
                     portablewaterwastecost = portablewaterused * 7.36;
                     portablewaterwastecostwithVAT = portablewaterused * 8.39;
-                    Totalcost = portablewaterused * 49.20 + portablewaterused * 8.39 + portablewaterused * 39.35 + portablewaterused * 6.71 + portablewaterused * 25.88 + portablewaterused * 5.03 + portablewaterused * 14.61 + portablewaterused * 3.36 + portablewaterused * 4.92 + portablewaterused * 0.74;
+                    Totalcost = (portablewaterused * 49.20) + (portablewaterused * 8.39) + (portablewaterused * 39.35) + (portablewaterused * 6.71) + (portablewaterused * 25.88) + (portablewaterused * 5.03) + (portablewaterused * 14.61) + (portablewaterused * 3.36) + (portablewaterused * 4.92) + (portablewaterused * 0.74);
                     Console.WriteLine("******************************************************************************************************************");
                     Console.WriteLine("Names: " + Name +    "Stay"    +    Residentialplace     +    "Plot"     +    address     +     "Monthly Bill");
                     Console.WriteLine("Portable Water used Kl" + portablewaterused);
