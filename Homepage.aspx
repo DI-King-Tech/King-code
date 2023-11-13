@@ -19,6 +19,15 @@
                 </div>
             </div>
         </div>
+   <div class="col-md-4">
+                
+                <center>
+                    <img width="150px" src="imgs/yu%20know.jpg" />
+                <h4>    RRMGROUP.CO.BW</h4>
+                <p class="text-justify">A group of persistant drivers of the economy facing a future brighter than a neutron star.
+                </p>
+                </center>
+            </div>
         <diva class="row">
             <div class="col-md-4">
                 
